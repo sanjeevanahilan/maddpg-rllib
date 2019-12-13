@@ -2,7 +2,7 @@ import ray
 from ray.tune import run_experiments
 from ray.tune.registry import register_trainable, register_env
 from env import MultiAgentParticleEnv
-import ray.rllib.agents.maddpg.maddpg as maddpg
+import ray.rllib.contrib.maddpg.maddpg as maddpg
 import argparse
 
 import os
