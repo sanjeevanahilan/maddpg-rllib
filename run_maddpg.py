@@ -116,7 +116,7 @@ def main(args):
 
     run_experiments({
         "MADDPG_RLLib": {
-            "run": "MADDPG",
+            "run": "contrib/MADDPG",
             "env": "mpe",
             "stop": {
                 "episodes_total": args.num_episodes,
